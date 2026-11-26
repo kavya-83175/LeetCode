@@ -23,5 +23,6 @@ public:
         int n=word1.size(),m=word2.size();
         vector<vector<int>>dp(n,vector<int>(m,-1));
         return check(n,m,0,0,word1,word2,dp);
+       
     }
 };
